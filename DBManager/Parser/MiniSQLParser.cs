@@ -16,6 +16,7 @@ namespace DBManager
                 List<string> columnNames = CommaSeparatedNames(match.Groups[1].Value);
                 string table = match.Groups[2].Value;
                 return new Select(table, columnNames);
+                //test 1
             }
             //Insert
             match = Regex.Match(miniSQLQuery, insertPattern);
