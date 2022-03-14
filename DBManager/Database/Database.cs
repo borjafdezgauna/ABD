@@ -14,24 +14,24 @@ namespace DBManager
 
         public bool Load(string databaseFilename, string username, string password)
         {
-            //TODO: Load database from file, return true if success, else return false
+            //TODO
             return true;
         }
 
-        public bool Save()
+        public bool Save(string databaseFilename)
         {
-            //TODO: Upd database from file, return true if success, else return false
+            //TODO
             return true;
         }
 
         public string Select(string table, List<string> columns)
         {
-            //Do whatever you have to do
+            //TODO
             return null;
         }
         public string Insert(string table, List<string> columns, List<string> values)
         {
-            //Do whatever you have to do
+            //TODO
             return null;
         }
 
